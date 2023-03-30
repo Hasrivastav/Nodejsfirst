@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+background: rgb(106, 0, 255);;
+display: grid;
+place-items: center;
+height: 100vh;
+}
+
+form{
+    background-color: white;
+    height: 70%;
+    width: 60%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 4rem;
+    margin: auto;
+   border-radius: 20px;
+
+}
+input {
+    padding: 1rem;
+    outline: none;
+    border: 1px solid beige;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  h1 {
+    
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+
+button {
+    background-color: rgb(106, 0, 255);
+    border-radius: 5px;
+    width: 12rem;
+    color: white;
+    align-self: center;
+    font: 400 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+  }
+
+
