@@ -51,4 +51,9 @@ button {
     padding: 1rem 2rem;
   }
 
-
+.error{
+  color: red;
+  font-size: 0.7rem;
+  text-align: right;
+  margin: 1rem;
+}
